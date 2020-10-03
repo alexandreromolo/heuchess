@@ -1,0 +1,67 @@
+###########################################################################
+####               ARQUIVO DE REGISTRO DE EVENTOS - LOG                ####
+###########################################################################
+#### NOME DO SISTEMA       : [HeuChess]
+###########################################################################
+#### DATA DE INICIO DO LOG : [23/05/2013-15:56:02:187]
+###########################################################################
+[23/05/2013-15:56:02:187] -> Iniciando Campeonato
+Profundidade de Busca: 1
+Geração de Lances: Otimizada
+Quantidade de Partidas Simultâneas: 2
+###########################################################################
+Conjuntos Heurísticos Participantes (Ordem-Autor-Conjunto)
+1 - SISTEMA - ESCOLHA ALEATÓRIA
+2 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2
+3 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES
+4 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO
+5 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1
+###########################################################################
+Partidas Planejadas - Total de 20 - (Ordem - Autor Brancas - Brancas X Autor Pretas - Pretas
+1 - SISTEMA - ESCOLHA ALEATÓRIA X ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2
+2 - SISTEMA - ESCOLHA ALEATÓRIA X ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES
+3 - SISTEMA - ESCOLHA ALEATÓRIA X ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO
+4 - SISTEMA - ESCOLHA ALEATÓRIA X ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1
+5 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2 X SISTEMA - ESCOLHA ALEATÓRIA
+6 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2 X ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES
+7 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2 X ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO
+8 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2 X ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1
+9 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES X SISTEMA - ESCOLHA ALEATÓRIA
+10 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES X ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2
+11 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES X ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO
+12 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES X ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1
+13 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO X SISTEMA - ESCOLHA ALEATÓRIA
+14 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO X ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2
+15 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO X ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES
+16 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO X ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1
+17 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1 X SISTEMA - ESCOLHA ALEATÓRIA
+18 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1 X ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2
+19 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1 X ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES
+20 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1 X ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO
+###########################################################################
+[23/05/2013-15:56:03:953] -> Partida Terminou: 2 - SISTEMA - ESCOLHA ALEATÓRIA X ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES
+Tempo Partida: 460,42 milisegundos
+Total Lances:  155
+Resultado:     Empatou pela Regra da Tripla Repetição de um Tabuleiro
+Lances: 1. g4  Cf6  2. a3  Cxg4  3. b3  Cxf2  4. d4  Cxd1  5. Bg5  Tg8  6. Cc3  Cxc3  7. Bd2  Cxe2  8. Be3  Cxg1  9. c3  Th8  10. Bg2  Tg8  11. Bf4  Th8  12. Rf2  Tg8  13. Te1  Th8  14. Texg1  Tg8  15. Bxc7  Dxc7  16. Tf1  Dxh2  17. Thg1  Dxg2+  18. Txg2  Th8  19. Re2  Tg8  20. Tf6  gxf6  21. Rd1  Txg2  22. a4  Tf2  23. c4  Te2  24. Rxe2  Bg7  25. a5  Bf8  26. Rf1  Bg7  27. Re1  Bf8  28. d5  Bg7  29. d6  exd6  30. a6  Cxa6  31. Rf1  Tb8  32. Re2  Ta8  33. Rf1  Tb8  34. Re1  Ta8  35. Rf1  Bf8  36. c5  Cxc5  37. Rg2  Cxb3  38. Rf1  Tb8  39. Re2  Ta8  40. Rf1  Tb8  41. Rg2  Ta8  42. Rg1  Tb8  43. Rf2  Ta8  44. Rg3  Tb8  45. Rf3  Ta8  46. Re4  Tb8  47. Rd3  Ta8  48. Rc4  Tb8  49. Rd3  Ta8  50. Re3  Tb8  51. Rf2  Ta8  52. Re2  Tb8  53. Re1  Ta8  54. Rf2  Tb8  55. Rf3  Ta8  56. Rg3  Tb8  57. Rg2  Be7  58. Rf2  Ta8  59. Rg1  Tb8  60. Rg2  Ta8  61. Rf2  Tb8  62. Rf1  h6  63. Rg2  Ta8  64. Rh3  Tb8  65. Rh4  Ta8  66. Rh5  Tb8  67. Rh4  Ta8  68. Rg4  Tb8  69. Rf3  Ta8  70. Rg4  Tb8  71. Rh3  Ta8  72. Rh2  Tb8  73. Rg1  Ta8  74. Rg2  Tb8  75. Rf3  Ta8  76. Rg2  Tb8  77. Rf1  Ta8  78. Rg2  1/2-1/2 {Tripla Repetição} 
+###########################################################################
+[23/05/2013-15:56:04:015] -> Partida Terminou: 1 - SISTEMA - ESCOLHA ALEATÓRIA X ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2
+Tempo Partida: 554,68 milisegundos
+Total Lances:  119
+Resultado:     Empatou pela Regra da Tripla Repetição de um Tabuleiro
+Lances: 1. g3  Cf6  2. Cc3  Tg8  3. Ch3  Th8  4. Ca4  Tg8  5. Cg5  Th8  6. a3  Tg8  7. Tb1  Th8  8. Cc3  Tg8  9. f4  Th8  10. Cb5  Tg8  11. Bh3  Th8  12. Cd4  Tg8  13. b3  Th8  14. a4  Tg8  15. Ce4  Cxe4  16. c4  Cxd2  17. e4  Cxb1  18. Bf5  Th8  19. h3  Tg8  20. Dd3  Th8  21. Rf2  Tg8  22. Te1  Th8  23. a5  Tg8  24. Ba3  Cxa3  25. Rf1  Cxc4  26. Td1  Cxa5  27. Dc2  Cxb3  28. Dxc7  Dxc7  29. h4  Cxd4  30. Tc1  Cxf5  31. Tc6  Dxc6  32. Rf2  Dxe4  33. Rg1  Dxf4  34. Rh1  Dxg3  35. h5  Df4  36. Rg1  De5  37. Rf2  Dd6  38. Rf1  Dc7  39. Re2  Dd8  40. Rf2  Dc7  41. Rf3  Dd8  42. Re2  Dc7  43. h6  Cxh6  44. Re3  Dd8  45. Rf2  Dc7  46. Re2  Dd8  47. Rf3  Dc7  48. Re2  Dd8  49. Rf3  Dc7  50. Rf2  Dd8  51. Rg3  Dc7+  52. Rf3  Dd8  53. Rg2  Dc7  54. Rh1  Dd8  55. Rg1  Dc7  56. Rg2  Dd8  57. Rh1  Dc7  58. Rg2  Dd8  59. Rh2  Dc7+  60. Rg2  1/2-1/2 {Tripla Repetição} 
+###########################################################################
+[23/05/2013-15:56:05:140] -> Partida Terminou: 4 - SISTEMA - ESCOLHA ALEATÓRIA X ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1
+Tempo Partida: 123,49 milisegundos
+Total Lances:  48
+Resultado:     Vitória das Pretas
+Lances: 1. c4  Cf6  2. a3  Tg8  3. Cf3  Th8  4. Cg1  Tg8  5. Ch3  Th8  6. e4  Cxe4  7. a4  Cxd2  8. Tg1  Cxf1  9. Ta3  Cxh2  10. Dh5  Tg8  11. Rd2  Th8  12. Dg6  hxg6  13. Cf4  Tg8  14. Tc3  Th8  15. Cd5  Tg8  16. Cb6  cxb6  17. b4  Dc7  18. Rd3  Dxc4+  19. Re3  Dxc3+  20. Rf4  Dxc1+  21. Cd2  Dxg1  22. g3  Dxf2+  23. Cf3  Dxf3+  24. Re5  Cc6++  0-1 
+###########################################################################
+[23/05/2013-15:56:05:906] -> Partida Terminou: 3 - SISTEMA - ESCOLHA ALEATÓRIA X ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO
+Tempo Partida: 932,20 milisegundos
+Total Lances:  48
+Resultado:     Vitória das Pretas
+Lances: 1. e4  Cf6  2. Bd3  Cxe4  3. b4  Cc6  4. Cc3  Cxc3  5. Bg6  Cxd1  6. f4  hxg6  7. a3  Cc3  8. g3  Txh2  9. Txh2  f6  10. Cf3  e6  11. Th7  Bd6  12. Ce5  Bxe5  13. a4  Bxf4  14. dxc3  Bxc1  15. Th8+  Re7  16. Th7  Be3  17. g4  d6  18. g5  fxg5  19. b5  De8  20. Txg7+  Df7  21. Tg8  Df6  22. Re2  Dxc3  23. bxc6  bxc6  24. Rd1  Dd2++  0-1 
+###########################################################################
+[23/05/2013-15:56:05:968] -> Campeonato Interrompido!
+Tempo Total: 0:00:03

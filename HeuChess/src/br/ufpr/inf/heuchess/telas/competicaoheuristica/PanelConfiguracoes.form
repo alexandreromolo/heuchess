@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+      <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+        <LineBorder>
+          <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+        </LineBorder>
+      </Border>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jCheckBoxMostrarValorNode" alignment="1" max="32767" attributes="0"/>
+                  <Component id="jCheckBoxMostrarSAN" max="32767" attributes="0"/>
+                  <Component id="jCheckBoxInverterTabuleiro" pref="179" max="32767" attributes="0"/>
+                  <Component id="jCheckBoxHabilitarTocarSons" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jCheckBoxMostrarTotalFilhos" alignment="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+              <Component id="jCheckBoxMostrarSAN" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="jCheckBoxMostrarValorNode" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="jCheckBoxMostrarTotalFilhos" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="jCheckBoxInverterTabuleiro" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="jCheckBoxHabilitarTocarSons" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JCheckBox" name="jCheckBoxMostrarSAN">
+      <Properties>
+        <Property name="selected" type="boolean" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="renderTreeJogadas.getUsarNotacaoSAN()" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Lances em Nota&#xe7;&#xe3;o Alg&#xe9;brica"/>
+        <Property name="toolTipText" type="java.lang.String" value="Exibe os movimentos da &#xc1;rvore de Lances em Nota&#xe7;&#xe3;o Alg&#xe9;brica"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCheckBoxMostrarSANItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBoxInverterTabuleiro">
+      <Properties>
+        <Property name="selected" type="boolean" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="telaAnalisePartidaXadrez.isFlipTabuleiroPretas()" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Inverter Tabuleiro para Pretas"/>
+        <Property name="toolTipText" type="java.lang.String" value="Inverte a exibi&#xe7;&#xe3;o dos tabuleiros para lances realizados pelas Pretas"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCheckBoxInverterTabuleiroItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBoxHabilitarTocarSons">
+      <Properties>
+        <Property name="selected" type="boolean" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="HeuChess.somAtivado" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tocar Sons"/>
+        <Property name="toolTipText" type="java.lang.String" value="Toca os sons associdados as movimenta&#xe7;&#xf5;es das pe&#xe7;as"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCheckBoxHabilitarTocarSonsItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBoxMostrarValorNode">
+      <Properties>
+        <Property name="selected" type="boolean" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="renderTreeJogadas.getMostrarValorNode()" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Mostrar Valor das Ra&#xed;zes"/>
+        <Property name="toolTipText" type="java.lang.String" value="Mostra os valores encontrados para cada ramo da &#xc1;rvore de Lances"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCheckBoxMostrarValorNodeItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBoxMostrarTotalFilhos">
+      <Properties>
+        <Property name="selected" type="boolean" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="renderTreeJogadas.getMostrarTotalFilhos()" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Mostrar Total de Filhos"/>
+        <Property name="toolTipText" type="java.lang.String" value="Mostra o total de lances derivados (Filhos) em cada ramo da &#xc1;rvore de Lances"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCheckBoxMostrarTotalFilhosItemStateChanged"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

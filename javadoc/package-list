@@ -1,0 +1,16 @@
+br.net.sercomtel.eti.util.gui
+br.ufpr.inf.heuchess
+br.ufpr.inf.heuchess.competicaoheuristica
+br.ufpr.inf.heuchess.persistencia
+br.ufpr.inf.heuchess.representacao.heuristica
+br.ufpr.inf.heuchess.representacao.organizacao
+br.ufpr.inf.heuchess.representacao.situacaojogo
+br.ufpr.inf.heuchess.telas.competicaoheuristica
+br.ufpr.inf.heuchess.telas.editorheuristica
+br.ufpr.inf.heuchess.telas.editorheuristica.mudancaetapas
+br.ufpr.inf.heuchess.telas.editorheuristica.panelregiao
+br.ufpr.inf.heuchess.telas.iniciais
+br.ufpr.inf.heuchess.telas.situacaojogo
+br.ufpr.inf.utils
+br.ufpr.inf.utils.gui
+com.jgraph.layout

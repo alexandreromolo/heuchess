@@ -1,0 +1,55 @@
+###########################################################################
+####               ARQUIVO DE REGISTRO DE EVENTOS - LOG                ####
+###########################################################################
+#### NOME DO SISTEMA       : [HeuChess]
+###########################################################################
+#### DATA DE INICIO DO LOG : [23/05/2013-15:56:07:796]
+###########################################################################
+[23/05/2013-15:56:07:796] -> Iniciando Campeonato
+Profundidade de Busca: 1
+Geração de Lances: Otimizada
+Quantidade de Partidas Simultâneas: 2
+###########################################################################
+Conjuntos Heurísticos Participantes (Ordem-Autor-Conjunto)
+1 - SISTEMA - ESCOLHA ALEATÓRIA
+2 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2
+3 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES
+4 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO
+5 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1
+###########################################################################
+Partidas Planejadas - Total de 20 - (Ordem - Autor Brancas - Brancas X Autor Pretas - Pretas
+1 - SISTEMA - ESCOLHA ALEATÓRIA X ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2
+2 - SISTEMA - ESCOLHA ALEATÓRIA X ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES
+3 - SISTEMA - ESCOLHA ALEATÓRIA X ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO
+4 - SISTEMA - ESCOLHA ALEATÓRIA X ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1
+5 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2 X SISTEMA - ESCOLHA ALEATÓRIA
+6 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2 X ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES
+7 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2 X ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO
+8 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2 X ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1
+9 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES X SISTEMA - ESCOLHA ALEATÓRIA
+10 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES X ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2
+11 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES X ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO
+12 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES X ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1
+13 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO X SISTEMA - ESCOLHA ALEATÓRIA
+14 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO X ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2
+15 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO X ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES
+16 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO X ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1
+17 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1 X SISTEMA - ESCOLHA ALEATÓRIA
+18 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1 X ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2
+19 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1 X ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES
+20 - ALEXANDRE RÔMOLO MOREIRA FEITOSA - CONTROLE1 X ALEXANDRE RÔMOLO MOREIRA FEITOSA - DOMINIO_DE_CENTRO
+###########################################################################
+[23/05/2013-15:56:09:234] -> Partida Terminou: 2 - SISTEMA - ESCOLHA ALEATÓRIA X ALEXANDRE RÔMOLO MOREIRA FEITOSA - SIMPLES
+Tempo Partida: 241,87 milisegundos
+Total Lances:  76
+Resultado:     Vitória das Pretas
+Lances: 1. c3  Cf6  2. d4  Tg8  3. h4  Th8  4. a4  Tg8  5. Cf3  Th8  6. Th2  Tg8  7. a5  Th8  8. Th1  Tg8  9. Dc2  Th8  10. De4  Cxe4  11. Bd2  Cxd2  12. Cfxd2  Tg8  13. Tg1  Th8  14. c4  Tg8  15. Cf3  Th8  16. Ta4  Tg8  17. h5  Th8  18. Rd1  Tg8  19. Cc3  Th8  20. a6  Cxa6  21. Ch4  Tg8  22. e3  Th8  23. g3  Tg8  24. Th1  Th8  25. Cd5  Tg8  26. Tb4  Cxb4  27. Th2  Cxd5  28. Rc1  Cxe3  29. Cg2  Cxf1  30. d5  Cxh2  31. Rc2  Th8  32. d6  exd6  33. Rc1  De7  34. Ce3  Dxe3+  35. Rc2  Dxf2+  36. Rd3  Dxg3+  37. Rd4  Df4+  38. Rd5  De5++  0-1 
+###########################################################################
+[23/05/2013-15:56:09:531] -> Partida Terminou: 1 - SISTEMA - ESCOLHA ALEATÓRIA X ALEXANDRE RÔMOLO MOREIRA FEITOSA - TESTE2
+Tempo Partida: 552,15 milisegundos
+Total Lances:  181
+Resultado:     Empatou pela Regra dos 50 movimentos
+Lances: 1. c3  Cf6  2. Cf3  Tg8  3. d4  Th8  4. e3  Tg8  5. Bd2  Th8  6. a4  Tg8  7. d5  Cxd5  8. b4  Cxc3  9. h3  Cxd1  10. Bb5  Cxf2  11. a5  Cxh1  12. g3  Cxg3  13. Cg1  Th8  14. Cc3  Tg8  15. Bd3  Th8  16. Ta4  Tg8  17. Bc1  Th8  18. Cb1  Tg8  19. Be4  Cxe4  20. h4  Th8  21. Ba3  Tg8  22. Ch3  Th8  23. Cg5  Cxg5  24. Rd1  Tg8  25. Bc1  Th8  26. hxg5  Tg8  27. Ta3  Th8  28. Ta1  Tg8  29. b5  Th8  30. Ta2  Tg8  31. Cc3  Th8  32. Te2  Tg8  33. Tg2  Th8  34. Rc2  Tg8  35. Rd2  Th8  36. Ce4  Tg8  37. Rc2  Th8  38. Th2  Tg8  39. Td2  Th8  40. Rd3  Tg8  41. Cf2  Th8  42. Te2  Tg8  43. Te1  Th8  44. Rc4  Tg8  45. Bb2  Th8  46. Rd5  Tg8  47. Re4  Th8  48. Tf1  Tg8  49. Ba3  Th8  50. Tb1  Tg8  51. Rd5  Th8  52. g6  hxg6  53. Ch3  Txh3  54. Bc1  Txe3  55. Bxe3  Ca6  56. Ta1  Tb8  57. Rd4  Ta8  58. Tg1  Tb8  59. b6  cxb6  60. axb6  Dxb6+  61. Re5  Dxe3+  62. Rd5  Dxg1  63. Re4  Df2  64. Rd3  De3+  65. Rc4  Dd4+  66. Rxd4  Ta8  67. Rd5  Tb8  68. Re5  Ta8  69. Rd5  Tb8  70. Re4  Ta8  71. Rf3  Tb8  72. Rg4  Ta8  73. Rf3  Tb8  74. Rf2  Ta8  75. Re3  Tb8  76. Rd2  Ta8  77. Rc2  Tb8  78. Rb3  Ta8  79. Ra3  Tb8  80. Ra2  Ta8  81. Rb2  Tb8  82. Rb3  Ta8  83. Ra2  Tb8  84. Rb2  Ta8  85. Rc3  Tb8  86. Rc4  Ta8  87. Rb3  Tb8  88. Rc3  Ta8  89. Rd2  Tb8  90. Re1  Ta8  91. Re2  1/2-1/2 {50 Movimentos} 
+###########################################################################
+[23/05/2013-15:56:09:687] -> Campeonato Interrompido!
+Tempo Total: 0:00:01

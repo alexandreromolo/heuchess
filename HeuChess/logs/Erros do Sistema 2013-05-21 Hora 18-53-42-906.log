@@ -1,0 +1,45 @@
+###########################################################################
+####               ARQUIVO DE REGISTRO DE EVENTOS - LOG                ####
+###########################################################################
+#### NOME DO SISTEMA       : [HeuChess]
+###########################################################################
+#### DATA DE INICIO DO LOG : [21/05/2013-18:53:42:906]
+###########################################################################
+[21/05/2013-18:53:42:906] -> Não foi possível criar conexão com o Banco de Dados!
+[21/05/2013-18:53:42:921] -> #################################################
+org.postgresql.util.PSQLException: FATAL: autentica��o do tipo password falhou para usu�rio "heuchess2013v1_cliente_java"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:398)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:173)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:136)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(DriverManager.java:579)
+	at java.sql.DriverManager.getConnection(DriverManager.java:221)
+	at br.ufpr.inf.heuchess.persistencia.ConexaoDBHeuChess.getConexao(ConexaoDBHeuChess.java:27)
+	at br.ufpr.inf.heuchess.persistencia.ConexaoDBHeuChess.getStatement(ConexaoDBHeuChess.java:36)
+	at br.ufpr.inf.heuchess.persistencia.ConexaoDBHeuChess.executaConsulta(ConexaoDBHeuChess.java:73)
+	at br.ufpr.inf.heuchess.persistencia.ConexaoDBHeuChess.getDataHora(ConexaoDBHeuChess.java:87)
+	at br.ufpr.inf.heuchess.HeuChess.carregandoDados(HeuChess.java:114)
+	at br.ufpr.inf.heuchess.HeuChess$1.run(HeuChess.java:106)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:251)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:727)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.awt.EventQueue$3.run(EventQueue.java:686)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:697)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Descrição do Erro [FATAL: autentica��o do tipo password falhou para usu�rio "heuchess2013v1_cliente_java"]
+
+###########################################################################

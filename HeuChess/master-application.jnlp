@@ -1,0 +1,42 @@
+<jnlp spec="1.0+" codebase="${jnlp.codebase}" href="HeuChess.jnlp">    
+    <information>
+        <title>${APPLICATION.TITLE}</title>
+        <vendor>${APPLICATION.VENDOR}</vendor>
+        <homepage href="${APPLICATION.HOMEPAGE}"/>
+        <description>${APPLICATION.DESC}</description>
+        <description kind="short">${APPLICATION.DESC.SHORT}</description>        
+        <description kind="tooltip">${APPLICATION.DESC.SHORT}</description>        
+        <icon href="splash.jpg" kind="splash"/>
+        <icon href="icone_heuchess.gif"/>        
+        <!--${JNLP.ICONS}-->
+        <!--
+        <related-content href="http://www.inf.ufpr.br/tlga06/TG/">
+            <title>Ajuda do Programa</title>
+            <icon href="icone_ajuda.gif"/>
+            <description>Ajuda do Programa HeuChess</description>
+        </related-content>        
+        <related-content href="http://xadrezlivre.c3sl.ufpr.br/projeto/">
+            <title>O Projeto Xadrez Livre</title>
+            <icon href="icone_xadrezlivre.gif"/>
+            <description>Projeto Xadrez Livre</description>
+        </related-content>
+        -->
+        <shortcut online="true">
+           <desktop/>
+           <menu submenu="HeuChess"/>
+        </shortcut>
+        <!--${JNLP.OFFLINE.ALLOWED}-->
+    </information>    
+    <!--${JNLP.UPDATE}-->
+    <!--${JNLP.SECURITY}-->
+    <resources>
+        <!-- Application Resources -->
+        <!--${JNLP.RESOURCES.RUNTIME}-->
+        <!--${JNLP.RESOURCES.MAIN.JAR}-->
+        <!--${JNLP.RESOURCES.JARS}-->
+        <!--${JNLP.RESOURCES.EXTENSIONS}-->
+    </resources>
+    <application-desc main-class="${jnlp.main.class}">
+        <!--${JNLP.APPLICATION.ARGS}-->
+    </application-desc>
+</jnlp>
